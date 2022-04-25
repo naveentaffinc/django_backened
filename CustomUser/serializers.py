@@ -11,11 +11,3 @@ class CustomUserSerializer(serializers.ModelSerializer):
     class Meta:
         model = CustomUserModel
         fields = ('__all__')
-
-    # def create(self, validated_data):
-    #    user = CustomUserModel()
-    #    user.username = validated_data['username']
-    #    user.email = validated_data['email']
-    #    user.Password = make_password(validated_data['password'])
-
-    #    return user
