@@ -23,3 +23,5 @@ Now Install the rest framework using the below command
 	
 	python -m pip install djangorestframework
 
+Now the application will be served at http://127.0.0.1:8000
+Postman collection file is under the name "My Momism Django" in the repository
